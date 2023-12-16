@@ -3,9 +3,10 @@ package com.unittest.codecoverage.service;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
-
+import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
+import com.unittest.codecoverage.models.validators.PersonValidator;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -97,4 +98,35 @@ public class PersonServiceTest {
 			.hasMessage(expectedMessage);
 	}
 
+	@Test
+	public void testValidation() {
+		PersonValidator validator = new PersonValidator();
+		Person person = new Person();
+		person.setName("alireza");
+		boolean result = validator.requiredName(person.getName());
+		assertTrue(result);
+		person.setName(null);
+		result = validator.requiredName(person.getName());
+		assertTrue(result);
+	}
+
+	@Test
+	public void testUpdate() {
+		Person person = new Person();
+		person.setAge(23);
+		person.setName("alireza");
+		person.setGender(Gender.M);
+		service.insert(person);
+		person.setName("mina");
+		person.setGender(Gender.F);
+		person.setAge(21);
+		service.update(person);
+		Person newPerson = service.get("mina");
+		assertNull(newPerson);
+		Person newPerson2 = service.get("alireza");
+		assertNull(newPerson2);
+		service.delete("mina");
+		Person newPerson3 = service.get("mina");
+		assertNull(newPerson3);
+	}
 }
