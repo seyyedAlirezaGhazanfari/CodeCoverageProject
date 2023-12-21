@@ -8,6 +8,12 @@
 ![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/7eebe37d-2f1f-482d-bcdf-63fda6db7323)
 ![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/3d90965c-ea61-400c-8864-d5268fa74fd4)
 
+## تمرین
+پروژه CodeCoverageProject در همین مخزن قابل دسترس است. در ادامه گزارش هر بخش تمرین قرار داده شده است.
+## بخش ۱
+قبل از ایجاد تست جدید میزان coverage در تصویر زیر آمده است:
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/65e0a4b9-f153-4950-8659-5e6938c94cd1)
+
 
 ## unittest.with.codecoverage
 ### _Demo of unit test with code coverage_
