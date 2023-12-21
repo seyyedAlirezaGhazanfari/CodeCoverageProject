@@ -19,6 +19,9 @@
 پس از افزودن تست، افزایش coverage به صورت زیر بود:<br/>
 بخش‌هایی که به کد تست اضافه کرده‌ایم:<br/>
 می‌توانید در [این کامیت](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/commit/26ce0a926565d69200fe85eb68114a33bfce76a7) و [این کامیت](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/commit/5ac2a5596cce3c0376bf1941c0e592d6357e4ba9) بخش‌های اضافه شده را مشاهده کنید.<br/>
+درج تصویر از کد:
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/56e7bb6a-d768-4eb0-a37b-3e8b0421b14c)
+در اینجا تابع های testValidation و testUpdate افزوده شده اند و کلاس‌های Person, PersonValidator, PersonServiceImpl در آنها cover می‌شوند. کلاس ها در سناریو های مختلف افزودن افراد مختلف و بروزرسانی اطلاعاتشان تست می‌شوند.<br/> 
 میزان افزایشی که در اعداد پوشش آزمون به دنبال این تغییرات حاصل شده است:
 
 ![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/6c2c34f2-e9bc-4433-8bae-f8c1c04f10f9)
