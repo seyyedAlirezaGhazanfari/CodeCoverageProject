@@ -99,6 +99,32 @@ public class PersonServiceTest {
 	}
 
 	@Test
+	public void testGet_shouldThrowPersonExceptionWhenPersonGenderIsNull() {
+
+		List<String> expectedErrors = Lists.newArrayList("Name is required");
+		String expectedMessage = String.join(";", expectedErrors);
+		String empty_string = "";
+
+		assertThatThrownBy(() -> service.get(empty_string))
+				.isInstanceOf(PersonException.class)
+				.hasFieldOrPropertyWithValue("errors", expectedErrors)
+				.hasMessage(expectedMessage);
+	}
+
+	@Test
+	public void testDelete_shouldThrowPersonExceptionWhenPersonGenderIsNull() {
+
+		List<String> expectedErrors = Lists.newArrayList("Name is required");
+		String expectedMessage = String.join(";", expectedErrors);
+		String empty_string = "";
+
+		assertThatThrownBy(() -> service.delete(empty_string))
+				.isInstanceOf(PersonException.class)
+				.hasFieldOrPropertyWithValue("errors", expectedErrors)
+				.hasMessage(expectedMessage);
+	}
+
+	@Test
 	public void testValidation() {
 		PersonValidator validator = new PersonValidator();
 		Person person = new Person();
