@@ -1,4 +1,15 @@
-# unittest.with.codecoverage
+# پوشش آزمون (Test Coverage)
+## روال انجام آزمایش
+پروژه simple-json در [این لینک](https://github.com/seyyedAlirezaGhazanfari/json-simple) قابل دسترسی است و روال انجام آزمایش را ‌می‌توانید در تصاویر زیر مشاهده کنید:
+
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/d3424af1-e2c9-4aed-b2d3-2fbe73658898)
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/3b7882e1-9cc6-4fbc-85ad-9ae4eba6bf71)
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/665cb81d-dbf7-4a58-922a-667649c1ce22)
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/7eebe37d-2f1f-482d-bcdf-63fda6db7323)
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/3d90965c-ea61-400c-8864-d5268fa74fd4)
+
+
+## unittest.with.codecoverage
 ### _Demo of unit test with code coverage_
 
 ## Content
