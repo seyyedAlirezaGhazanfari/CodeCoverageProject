@@ -26,9 +26,19 @@
 در اینجا نیز کلاس PersonRepositoryTest قرار دارد که هدفش تست برای کلاس PersonRepository است. سناریو‌های مختلف افزودن، بروزرسانی، بازیابی و حذف یک Person در این تست ‌ها بررسی می‌شود. <br/>
  
 میزان افزایشی که در اعداد پوشش آزمون به دنبال این تغییرات حاصل شده است:
-
 ![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/6c2c34f2-e9bc-4433-8bae-f8c1c04f10f9)
 
+---
+<br/>
+
+بخش‌هایی که به کد تست اضافه کرده‌ایم:<br/>
+می‌توانید در [این کامیت](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/commit/24b22f641632889a4a8dd66611fd1e4af58493a1) بخش‌های اضافه شده را مشاهده کنید.<br/>
+درج تصویر از کد:
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/8cd3b53d-d27d-4adc-9879-b8c75fb0bf56)
+مشابه تست‌های قبلی موجود در PersonServiceTest برای تست PersonServiceImpl توابع تکمیلی بالا اضافه شده. سناریو‌هایی که منجر به exception می‌شود در این تست‌ها بررسی می‌شود. <br/>
+ 
+میزان افزایشی که در اعداد پوشش آزمون به دنبال این تغییرات حاصل شده است (نسبت به عکس بالاتر):
+![image](https://github.com/seyyedAlirezaGhazanfari/CodeCoverageProject/assets/56260232/74d0377f-a913-45b6-9cba-a1bf47de61a3)
 
 
 ## unittest.with.codecoverage
