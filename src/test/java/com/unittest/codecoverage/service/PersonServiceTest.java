@@ -107,7 +107,7 @@ public class PersonServiceTest {
 		assertTrue(result);
 		person.setName(null);
 		result = validator.requiredName(person.getName());
-		assertTrue(result);
+		assertFalse(result);
 	}
 
 	@Test
